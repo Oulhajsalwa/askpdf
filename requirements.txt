@@ -6,3 +6,20 @@ PyPDF2
 chromadb
 faiss-cpu
 langchain_google_genai
+
+fastapi==0.111.1
+
+
+uvicorn
+
+
+chromadb
+
+
+
+typing-extensions  # 'typing' is not needed, use 'typing-extensions' for compatibility
+pdf2image
+pillow  # 'PIL' should be replaced with 'pillow', which is the modern fork of PIL
+pytesseract
+
+
